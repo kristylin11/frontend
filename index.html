@@ -50,6 +50,116 @@
 
     <img src="/images/dog.jpeg" title="我是一隻小狗">
 
-    
+    <style>
+        th,td{border: 1px solid #000;}
+    </style>
+    <style>
+        table{border-spacing: 0; border-collapse: collapse;}
+    </style>
+    <h1>學生資料</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年齡</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>David</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Ann</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+    </table>
+   
+    <h1>聯絡我們</h1>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14562.328869841804!2d120.65524846315387!3d24.151305896235826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d9dd9fe0011%3A0x6f9d8ebd38727566!2z5Yuk576OIOiqoOWTgee2oOWckumBkw!5e0!3m2!1szh-TW!2stw!4v1679916317703!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <h1>影音</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ayP8aKg8LDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>資料輸入</h1>
+    <div>
+        <input type="text" name="account">
+    </div>
+    <div>
+        <input type="password" name="pwd">
+    </div>
+    <div>
+        <input type="numer" name="money">
+    </div>
+    <div>
+        <input type="tel" name="phone">
+    </div>
+    <div>
+        <input type="color" name="bg-color">
+    </div>
+    <div>
+        <input type="date" name="schedule-date">
+    </div>
+    <div>
+        <input type="time" name="schedule-time">
+    </div>
+    <div>
+        <input type="file" name="my-pic">
+    </div>
+    <div>
+        <input type="submit">
+    </div>
+    <div>
+        <button type="submit">提交</button>
+    </div>
+
+    <form action="">
+    <h3>單選</h3>
+    <div>
+        <input type="radio" name="gender" value="male">男
+        <input type="radio" name="gender" value="female">女
+        <button>submit</button>
+    </div>
+    <H3>多選</H3>
+    <div>
+        <input type="checkbox" name="ins[]" value="basketball">籃球
+        <input type="checkbox" name="ins[]" value="baseball">棒球
+        <button>submit</button>
+    </div>
+    <h3>下拉選單 單選</h3>
+    <div>
+        <select name="country" id="">
+            <option value="">選擇縣市</option>
+            <option value="TP">台北</option>
+            <option value="台中">台中</option>
+            <option>高雄</option>
+        </select>
+        <button>submit</button>
+    </div>
+    <h3>下拉選單 多選</h3>
+    <div>
+        <select name="country[]" multiple>
+            <option value="">選擇縣市</option>
+            <option value="TP">台北</option>
+            <option value="台中">台中</option>
+            <option>高雄</option>
+        </select>
+        <button>submit</button>
+    </div>
+
+    <textarea name="remark" id="" cols="50" rows="20"></textarea>
+
+
+
+    </form>
+
+
+
+
+       
+
+
 </body>
 </html>
