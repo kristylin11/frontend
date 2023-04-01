@@ -1,15 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact us</title>
+    <title>contact us.html</title>
 </head>
+<h1>聯絡表單實作</h1>
+
 <body>
-    <form action="">
-        
+    <form method="post" form action="https://book.niceinfos.com/frontend/assets/html_contact_form/api.php">
+        <div>
+            <div>
+                <label for="fullname">全名</label>
+            </div>
+            <div>
+                <input type="text" name="fullname id=fullname">
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="gender">性別</label>
+            </div>
+            <div>
+                <input type="radio" name="gender" id="gender-m">
+                <label for="gender-m">男</label>
+                <input type="radio" name="gender" id="gender-w">
+                <label for="gender-w">女</label>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for=>喜好音樂</label>
+            </div>
+            <div>
+                <input type="checkbox" name="music[]" id="music-pop">
+                <label for="music-pop">Pop</label>
+                <input type="checkbox" name="music[]" id="music-jazz">
+                <label for="music-jazz">Jazz</label>
+                <input type="checkbox" name="music[]" id="music-rock">
+                <label for="music-rock">Rock</label>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="city">縣市</label>
+            </div>
+            <div>
+                <select name="city" id="city">
+                    <option value="">選擇縣市</option>
+                    <option>台北</option>
+                    <option>台中</option>
+                    <option>高雄</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div>
+                <label for="suggetion">其他建議</label>
+            </div>
+            <div>
+                <textarea name="remark" id="" cols="30" rows="10" style="resize: n
+        ;"></textarea>
+            </div>
+        </div>
+        <div>
+            <button>submit</button>
+        </div>
     </form>
-    
 </body>
+
 </html>
