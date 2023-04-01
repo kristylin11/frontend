@@ -1,0 +1,65 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+#title{
+    text-align: center;
+}
+
+#contact-form{
+    border: 1px solid black;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(243, 248, 228);
+}
+
+label{
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.input-text{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+select{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    height: 100px;
+    resize: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+button{
+    background-color: rgb(18, 147, 136);
+    color: hwb(0 100% 0%);
+    border: 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.fn{
+    text-align:right;
+}
+
+button:hover{
+    background-color: rgb(241, 230, 21);
+}

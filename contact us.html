@@ -6,17 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact us.html</title>
+    <link rel="stylesheet" href="css/contact us.css">
+
 </head>
-<h1>聯絡表單實作</h1>
+<h1 id="title">聯絡表單</h1>
 
 <body>
-    <form method="post" form action="https://book.niceinfos.com/frontend/assets/html_contact_form/api.php">
+    <form id="contact-form" method="post" form action="https://book.niceinfos.com/frontend/assets/html_contact_form/api.php">
         <div>
             <div>
                 <label for="fullname">全名</label>
             </div>
             <div>
-                <input type="text" name="fullname id=fullname">
+                <input type="text" name="fullname" id="fullname" class="input-text">
             </div>
         </div>
         <div>
@@ -24,9 +26,9 @@
                 <label for="gender">性別</label>
             </div>
             <div>
-                <input type="radio" name="gender" id="gender-m">
+                <input type="radio" class="radio" name="gender" id="gender-m">
                 <label for="gender-m">男</label>
-                <input type="radio" name="gender" id="gender-w">
+                <input type="radio" class="radio" name="gender" id="gender-w">
                 <label for="gender-w">女</label>
             </div>
         </div>
@@ -65,7 +67,7 @@
         ;"></textarea>
             </div>
         </div>
-        <div>
+        <div class="fn">
             <button>submit</button>
         </div>
     </form>
