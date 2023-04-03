@@ -1,0 +1,19 @@
+.container{
+    width: 600px;
+    height: 100%;
+    margin: auto;
+}
+.top_menu{
+    background: rgb(48, 47, 47);
+    color: white;
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.menu{
+
+}

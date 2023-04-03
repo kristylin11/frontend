@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS display</title>
+    <style>
+        div{
+            background-color: red;
+            color: yellow;
+        }
+        .inline{
+            display:inline
+        }
+        span{
+            background-color: blue;
+            color: white;
+            height: 100px;
+            width: 100px;
+        }
+        .over{
+            width: 100px;
+            height: 100px;
+            overflow-y: auto;
+            overflow-x: auto;
+        }
+    </style>
+
+</head>
+<body>
+    <div>dispaly:block</div>
+    <div class="inline">dispaly:block</div>
+    <div>dispaly:block</div>
+
+    <span>hello</span>
+    <span style="display: inline-block;">hello</span>
+    <span>hello</span>
+
+    <div style="display: none;">hello</div>
+    <div class="over">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+    </div>
+
+    
+</body>
+</html>

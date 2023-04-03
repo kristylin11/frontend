@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <style>
+        .item{
+            background: red;
+            padding: 10px;
+        }
+        .pos-relative{
+            position: relative;
+        }
+        .pos-absolute{
+            position: absolute;
+            background: yellow;
+        }
+        .pos-fixed{
+            position: fixed;
+            background: darkgoldenrod;
+        }
+        .popup{
+            border: 1px solid #000;
+            width: 300px;
+            height: 300px;
+            margin: auto;
+            position: relative;
+        }
+        .popup-button{
+            position: absolute;
+            bottom: 0
+        }
+    </style>
+
+</head>
+<body>
+    <div class="item pos-relative">relative</div>
+    <div class="item pos-absolute">absolute</div>
+    <div class="item pos-fixed">fixed</div>
+
+    <div class="popup">
+        <div class="popup-button">
+            <button>click</button>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>
