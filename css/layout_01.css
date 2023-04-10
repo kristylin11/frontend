@@ -10,10 +10,56 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 .logo img{
     width: 100px;
     height: auto;
 }
 .menu{
+    border-top: 1px solid rgb(67, 68, 68);
+    border-bottom: 1px solid rgb(67, 68, 68);
+    padding-top: 10px;
+    padding-bottom: 10px;
 
+}
+.menu-item{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.main-item li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.img-group{
+    margin-top: 20px;
+    display: flex;
+}
+.img-group-item{
+    display: flex;
+    background: rgb(174, 165, 165);
+    width: 33.3%;
+    margin-right: 2%;
+    height: 100px;
+    align-items: center;
+}
+.img-resource{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.img-resource:hover{
+    background: blue;
+    color: white;
 }

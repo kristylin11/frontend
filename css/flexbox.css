@@ -1,0 +1,40 @@
+.flex{
+    display: flex;
+    background: yellow;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background: black;
+    color: aliceblue;
+    border: 2px solid crimson ;
+    display: block;
+}
+
+.dir-r{
+    flex-direction: row-reverse;
+}
+
+.dir-c{
+    flex-direction: column;
+}
+
+.dir-cr{
+    flex-direction: column-reverse;
+}
+
+.jc-c{
+    justify-content: space-around;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-se{
+    justify-content: space-evenly;
+}
